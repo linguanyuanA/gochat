@@ -8,6 +8,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	_ "github.com/go-sql-driver/mysql"
 	"gochat/api"
 	"gochat/connect"
 	"gochat/logic"
